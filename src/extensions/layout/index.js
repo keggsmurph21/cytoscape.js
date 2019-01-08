@@ -1,3 +1,4 @@
+import tree from './tree';
 import breadthfirstLayout from './breadthfirst';
 import circleLayout from './circle';
 import concentricLayout from './concentric';
@@ -8,6 +9,7 @@ import presetLayout from './preset';
 import randomLayout from './random';
 
 export default [
+  { name: 'tree', impl: tree },
   { name: 'breadthfirst', impl: breadthfirstLayout },
   { name: 'circle', impl: circleLayout },
   { name: 'concentric',impl: concentricLayout },
